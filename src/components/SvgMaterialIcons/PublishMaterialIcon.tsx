@@ -1,5 +1,5 @@
 import SvgIcon from "../SvgIcon/SvgIcon";
-import { SvgIconProps } from "./types";
+import { SvgIconProps } from "../SvgIcon/types";
 
 export default function PublishMaterialIcon(props: SvgIconProps) {
   return (

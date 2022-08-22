@@ -1,4 +1,4 @@
-import { SvgIconProps } from "../SvgMaterialIcons/types";
+import { SvgIconProps } from "./types";
 
 export default function SvgIcon({
   children,

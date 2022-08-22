@@ -1,4 +1,5 @@
 import Button from './components/Button/Button';
+import { PublishIcon } from './components/SvgMaterialIcons';
 
 function App() {
 
@@ -11,6 +12,11 @@ function App() {
       <Button
         before={'Hola'}
         after={'Adios'}
+      >
+        Publicar
+      </Button>
+      <Button
+        before={<PublishIcon fill="white"></PublishIcon>}
       >
         Publicar
       </Button>
